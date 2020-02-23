@@ -11,4 +11,6 @@
     }
 Notice we use var and then a name and then assign this for both the variable and the function. In the second case we tell javascript we are making a *function()* and then wrap our code --what we want the function to do-- in curly brackets {}.
 
-
+---
+##take a second to put this in our console in an open web-browser
+To op up your dev-tools in chrome its `shift` `command` `i`
