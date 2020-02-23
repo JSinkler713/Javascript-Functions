@@ -13,6 +13,6 @@ Notice we use var and then a name and then assign this for both the variable and
 
 ---
 ## take a second to put this in our console in an open web-browser
+
 To open up your dev-tools in chrome its `option` `command` `j`
 To open up your dev-tools in firefox the command is `option` `command` `k`
----
