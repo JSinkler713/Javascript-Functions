@@ -27,6 +27,21 @@ Go ahead and type this in your console:
 Talk to the person next to you, did it do what you thought it would? What do we know about sayHi?
 <details>
   <summary>To call a function..</summary>
-	
+
+
 We need to go ahead and type these all important `( )`  in our code. So now type in `sayHi()` and see what we get
 </details>
+
+## Ok we want to make a function with an **argument**. This is a placeholder for a **paramater** we will pass in.
+![image of function diagram](function.png)
+
+If we want to change our `sayHi` function to say hi to a certain person, we would want to be able to pass in diffeent people's names. To do this we edit our function a little bit. I'm going to call this new function `sayHiTo`
+    function sayHiTo(name) {
+      return 'Hi ' + name
+    }
+*name* is the parameter. We can pass in different arguments in it's place when we call our function.
+Ex:
+    sayHiTo('James');
+
+
+
