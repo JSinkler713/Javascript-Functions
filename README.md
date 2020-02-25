@@ -50,14 +50,14 @@ This passes in the *argument* 'James'. So put this in yor console and pass in th
 
 ---
 ## Your turn:
-Click [here](javascript-functions-assignment.js) to open a short assignment. Take a minute to try and write out the two functions. We will go over the solution in a minute. Try it on your own first, then reach out to a partner or myself if you can't get it working. 
+Click [here](javascript-functions-assignment.js) to open a short assignment. Take a minute to try and write declare and call the two functions.For now we can just type the code in the console for test purposes. We will go over the solution in a minute. Try it on your own first, then reach out to a partner or myself if you can't get it working. 
 
 
 <details>
   <summary>Solution</summary>
 
     // Write a function that has two parameters and sums them together
-
+```javascript
     function addNums(x, y) {
     //write your code here
       return x + y;
@@ -76,4 +76,7 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
 
     // Call the function passing in your own name as an argument
     greetFrom('James') // returns 'Greetings from James'
+    ```
  </details>
+
+
