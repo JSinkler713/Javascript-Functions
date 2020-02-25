@@ -85,8 +85,10 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
 
     // Call the function passing in your own name as an argument
     greetFrom('James') // returns 'Greetings from James'
-    ```
 
+```
+
+</details>
 ## Questions so far?
 
 
