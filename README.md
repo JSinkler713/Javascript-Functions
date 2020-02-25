@@ -36,9 +36,11 @@ We need to go ahead and type these all important `( )`  in our code. So now type
 ![image of function diagram](function.png)
 
 If we want to change our `sayHi` function to say hi to a certain person, we would want to be able to pass in different people's names. To do this we edit our function a little bit. I'm going to call this new function `sayHiTo` .
+    
     function sayHiTo(name) {
       return 'Hi ' + name
     }
+
 *name* is the parameter. We can pass in different arguments in it's place when we call our function.
 Ex:
     sayHiTo('James');
