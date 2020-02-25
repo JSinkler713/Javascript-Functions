@@ -41,9 +41,39 @@ If we want to change our `sayHi` function to say hi to a certain person, we woul
       return 'Hi ' + name
     }
 
-*name* is the parameter. We can pass in different arguments in it's place when we call our function.
+*name* is the *parameter*. We can pass in different *arguments* in it's place when we call our function.
 Ex:
+
     sayHiTo('James');
 
+This passes in the *argument* 'James'. So put this in yor console and pass in the *argument* to say hi to your neighbor.
+
+---
+## Your turn:
+Click [here](..blob/master/javascript-functions-assignment.js) to open a short assignment. Take a minute to try and write out the two functions. We will go over the solution in a minute. Try it on your own first, then reach out to a partner or myself if you can't get it working. 
 
 
+<details>
+  <summary>Solution</summary>
+
+    // Write a function that has two parameters and sums them together
+
+    function addNums(x, y) {
+    //write your code here
+      return x + y;
+    //DON'T forget to return the value
+    }
+
+
+    //call the function with the arguments 3 and 5
+    addNums(3, 5)  // returns 8
+
+    //************************************************************
+    // Declare a function greetFrom(), that has a parameter name, that then returns 'Greetings from <whatever name is passed in>'
+    function greetFrom(name) {
+      return 'Greetings from ' + name;
+    }
+
+    // Call the function passing in your own name as an argument
+    greetFrom('James') // returns 'Greetings from James'
+ </details>
