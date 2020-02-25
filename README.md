@@ -15,6 +15,12 @@ Notice we use var and then a name and then assign this 'bob'. In the second case
 ## take a second to put this in our console in an open web-browser
 
 To open up your dev-tools in chrome its `option` `command` `j`
+
 To open up your dev-tools in firefox the command is `option` `command` `k`
 
+```mermaid
+graph TB
+A[Input] --> B[Function]
+B[Function] --> C[Output]
 
+```
