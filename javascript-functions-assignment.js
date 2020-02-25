@@ -8,10 +8,10 @@ function addNums(x, y) {
 
 
 //call the function with the arguments 3 and 5
-addNums(/*Your code here*/)
+addNums(/*Your code here*/)  // should return 8
 
 //************************************************************
-// Declare a function named hello, that has a parameter name, that then returns 'HELLO (name)'
+// Declare a function greetFrom(), that has a parameter name, that then returns 'Greetings from <whatever name is passed in>'
 
 function // Your code here
 
