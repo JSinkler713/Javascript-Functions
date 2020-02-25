@@ -3,13 +3,18 @@
 ## Lesson Objective:
 **To declare and call functions in JavaScript**
 
-## How do we declare variables:
+## This is how we have declared up to now:
     var name = 'bob';
-## This is how we declare a function:
+    let animal = 'dog';
+    const time = 'now';
+## This is how we declare functions:
+```javascript
     function sayHi() {
       return 'Hi'
     }
-Notice we use var and then a name and then assign this 'bob'. In the second case we tell javascript we are making a *function* and then put the name of our function*sayhi* next to `()`. The code block  --what we want the function to do-- we put in curly brackets `{}`.
+```
+
+Instead of *var* *let* *const* we use ***function***  and then a name. In the second case we tell javascript we are making a *function* and then put the name next to `()`. This parenthesis is for anything we want to pass into the function. In this case it's empty. The code block  --what we want the function to do-- we put in curly brackets `{}`.
 ## Lets take a second to put the above code in our console in an open web-browser
 
 To open up your dev-tools in chrome the shortcut is  `option` `command` `j`
@@ -29,24 +34,28 @@ Talk to the person next to you, did it do what you thought it would? What do we 
   <summary>To call a function..</summary>
 
 
-We need to go ahead and type these all important `( )`  in our code. So now type in `sayHi()` and see what we get
+We need to go ahead and type these all important `()`  in our code. So now type in `sayHi()` and see what we get
 </details>
 
 ## Ok we want to make a function with an *argument*. This is a placeholder for a *parameter* we will pass in.
 ![image of function diagram](function.png)
 
 If we want to change our `sayHi` function to say hi to a certain person, we would want to be able to pass in different people's names. To do this we edit our function a little bit. I'm going to call this new function `sayHiTo` .
-    
+
+```javascript    
     function sayHiTo(name) {
       return 'Hi ' + name
     }
+```
 
-*name* is the *parameter*. We can pass in different *arguments* in it's place when we call our function.
+Our *parameter* is *name*. We can pass in different *arguments* in it's place when we call our function.
 Ex:
 
+```javascript
     sayHiTo('James');
+```
 
-This passes in the *argument* 'James'. So put this in yor console and pass in the *argument* to say hi to your neighbor.
+Here we pass in the *argument* 'James'. So put this in yor console and pass in the *argument* to say hi to your neighbor.
 
 ---
 ## Your turn:
@@ -77,6 +86,7 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
     // Call the function passing in your own name as an argument
     greetFrom('James') // returns 'Greetings from James'
     ```
+
  </details>
 
 
