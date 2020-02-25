@@ -87,6 +87,24 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
     greetFrom('James') // returns 'Greetings from James'
     ```
 
- </details>
+## Questions so far?
 
 
+
+---
+## A few other ways we can make functions
+
+```javascript
+    //This is a function expression
+    var subtractNums = function(numOne, numTwo) {
+      return numOne - numTwo
+    }
+
+    //This is an arrow function
+
+    const Party = (partyPerson) => 'Wooohoo ' + partyPerson + '!!'
+```
+## RESOURCES
+
+
+##RECAP
