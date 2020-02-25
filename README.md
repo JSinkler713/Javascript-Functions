@@ -50,7 +50,7 @@ This passes in the *argument* 'James'. So put this in yor console and pass in th
 
 ---
 ## Your turn:
-Click [here](..blob/master/javascript-functions-assignment.js) to open a short assignment. Take a minute to try and write out the two functions. We will go over the solution in a minute. Try it on your own first, then reach out to a partner or myself if you can't get it working. 
+Click [here](javascript-functions-assignment.js) to open a short assignment. Take a minute to try and write out the two functions. We will go over the solution in a minute. Try it on your own first, then reach out to a partner or myself if you can't get it working. 
 
 
 <details>
