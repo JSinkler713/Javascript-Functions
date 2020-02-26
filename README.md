@@ -3,18 +3,18 @@
 ## Lesson Objective:
 **To declare and call functions in JavaScript**
 
-## This is how we have declared up to now:
+## This is how we have declared *variables* up to now:
     var name = 'bob';
     let animal = 'dog';
     const time = 'now';
-## This is how we declare functions:
+## This is how we declare *functions*:
 ```javascript
     function sayHi() {
       return 'Hi'
     }
 ```
 
-Instead of *var* *let* *const* we use ***function***  and then a name. In the second case we tell javascript we are making a *function* and then put the name next to `()`. This parenthesis is for anything we want to pass into the function. In this case it's empty. The code block  --what we want the function to do-- we put in curly brackets `{}`.
+Instead of *var* *let* *const* we use ***function***  and then an identifier, in this case `sayHi`. To tell javascript we are making a *function*  we need to pu parenthesis`()` after the identifier. This parenthesis is for anything we want to pass into the function. In this case we don't put anything in the parenthesis. The rest of the function --what we want the function to do-- we put in curly brackets `{}`. A function will always ***return*** something, in this case we have it return the string 'Hi'.
 ## Lets take a second to put the above code in our console in an open web-browser
 
 To open up your dev-tools in chrome the shortcut is  `option` `command` `j`
@@ -23,6 +23,7 @@ To open up your dev-tools in firefox the command is `option` `command` `k`
 
 ## Great we just declared a function!
 Congratulations you are on your way to being a developer. Functions are how we tell the computer to do things. Html and Css can put words on a page and style them, but if we actually want our user to interact with a page, we need JavaScript functions.
+
 -So how do we call a function?
 
 ## To call a function:
@@ -31,13 +32,13 @@ Go ahead and type this in your console:
 
 Talk to the person next to you, did it do what you thought it would? What do we know about sayHi?
 <details>
-  <summary>To call a function..</summary>
+  <summary>To call a function...</summary>
 
 
 We need to go ahead and type these all important `()`  in our code. So now type in `sayHi()` and see what we get
 </details>
 
-## Ok we want to make a function with an *argument*. This is a placeholder for a *parameter* we will pass in.
+## Ok, now we are going to make a function that takes in a *parameter*. This is a placeholder for an actual value or *argument* we will pass in.
 ![image of function diagram](function.png)
 
 If we want to change our `sayHi` function to say hi to a certain person, we would want to be able to pass in different people's names. To do this we edit our function a little bit. I'm going to call this new function `sayHiTo` .
@@ -48,7 +49,10 @@ If we want to change our `sayHi` function to say hi to a certain person, we woul
     }
 ```
 
-Our *parameter* is *name*. We can pass in different *arguments* in it's place when we call our function.
+Our *parameter* or *placeholder* in this case is *name*. We can pass in different *arguments* or *actual values* in it's place when we call our function.
+
+Say this 5 times fast: 'A parameter is a placeholder. An argument is an actual value. Parameter - placeholder. Argument - actual. Parameter - placeholder. Argument - actual.
+
 Ex:
 
 ```javascript
@@ -59,7 +63,7 @@ Here we pass in the *argument* 'James'. So put this in yor console and pass in t
 
 ---
 ## Your turn:
-Click [here](javascript-functions-assignment.js) to open a short assignment. Take a minute to try and write declare and call the two functions.For now we can just type the code in the console for test purposes. We will go over the solution in a minute. Try it on your own first, then reach out to a partner or myself if you can't get it working. 
+Click [here](javascript-functions-assignment.js) to open a short assignment. Take a minute to try and *declare* and *call* the two functions. For now we can just type the code in the console for test purposes. We will go over the solution in a minute. Try it on your own first, then reach out to a partner or myself if you can't get it working. 
 
 
 <details>
@@ -89,12 +93,11 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
 ```
 
 </details>
-## Questions so far?
 
-
+## Questions?
 
 ---
-## A few other ways we can make functions
+## A few other ways we can make functions in case you see them out in the wild.
 
 ```javascript
     //This is a function expression
@@ -103,10 +106,23 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
     }
 
     //This is an arrow function
-
     const Party = (partyPerson) => 'Wooohoo ' + partyPerson + '!!'
 ```
-## RESOURCES
+## RECAP
+Javscript function decleration:
 
+```javascript
+    function mysteryFunction(paramOne, paramTwo) {
+      return paramOne / paramTwo
+    }
+```
+Pop this into your console, and then ***call*** the function with two **arguments** that will *return* the value 4.
 
-##RECAP
+Note: There are many correct answers
+
+<details>
+  <summary>Here's one</summary>
+
+  `mysteryFunction(20, 5) // It is a division function`
+
+</details>
