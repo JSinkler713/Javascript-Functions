@@ -14,7 +14,9 @@
     }
 ```
 
-Instead of *var* *let* *const* we use ***function***  and then an identifier, in this case `sayHi`. To tell javascript we are making a *function*  we need to pu parenthesis`()` after the identifier. This parenthesis is for anything we want to pass into the function. In this case we don't put anything in the parenthesis. The rest of the function --what we want the function to do-- we put in curly brackets `{}`. A function will always ***return*** something, in this case we have it return the string 'Hi'.
+Instead of *var* *let* *const* we use ***function***  and then an identifier, in this case `sayHi`. To tell javascript we are making a *function*  we need to put parenthesis`()` after the identifier. This parenthesis is for anything we want to pass into the function. In this case we don't put anything in the parenthesis. The rest of the function --what we want the function to do-- we put in curly brackets `{}`. This is our code block.
+
+A function will always ***return*** something, in this case we have it ***return*** the string 'Hi'.
 ## Lets take a second to put the above code in our console in an open web-browser
 
 To open up your dev-tools in chrome the shortcut is  `option` `command` `j`
@@ -22,9 +24,9 @@ To open up your dev-tools in chrome the shortcut is  `option` `command` `j`
 To open up your dev-tools in firefox the command is `option` `command` `k`
 
 ## Great we just declared a function!
-Congratulations you are on your way to being a developer. Functions are how we tell the computer to do things. Html and Css can put words on a page and style them, but if we actually want our user to interact with a page, we need JavaScript functions.
+Congratulations you are on your way to being a developer. Functions are how we tell the computer to do things. HTML and CSS can put words on a page and style them, but if we actually want our user to interact with a page, we need JavaScript functions.
 
--So how do we call a function?
+-So how do we make the function do what we programmed it to? How do we *call* it into action?
 
 ## To call a function:
 Go ahead and type this in your console:
@@ -38,7 +40,7 @@ Talk to the person next to you, did it do what you thought it would? What do we 
 We need to go ahead and type these all important `()`  in our code. So now type in `sayHi()` and see what we get
 </details>
 
-## Ok, now we are going to make a function that takes in a *parameter*. This is a placeholder for an actual value or *argument* we will pass in.
+## Ok, now we are going to make a function that takes in a *parameter*. This is a placeholder for an actual value or *argument* we will pass in later.
 ![image of function diagram](function.png)
 
 If we want to change our `sayHi` function to say hi to a certain person, we would want to be able to pass in different people's names. To do this we edit our function a little bit. I'm going to call this new function `sayHiTo` .
@@ -59,7 +61,7 @@ Ex:
     sayHiTo('James');
 ```
 
-Here we pass in the *argument* 'James'. So put this in yor console and pass in the *argument* to say hi to your neighbor.
+Here we pass in the *argument* 'James'. So put this in your console and pass in the *argument* to have your function say hi to your neighbor.
 
 ---
 ## Your turn:
@@ -69,8 +71,8 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
 <details>
   <summary>Solution</summary>
 
-    // Write a function that has two parameters and sums them together
 ```javascript
+    // Write a function that has two parameters and sums(adds) them together
     function addNums(x, y) {
     //write your code here
       return x + y;
@@ -109,6 +111,7 @@ Click [here](javascript-functions-assignment.js) to open a short assignment. Tak
     const Party = (partyPerson) => 'Wooohoo ' + partyPerson + '!!'
 ```
 ## RECAP
+## Exit ticket
 Javscript function decleration:
 
 ```javascript
@@ -116,13 +119,13 @@ Javscript function decleration:
       return paramOne / paramTwo
     }
 ```
-Pop this into your console, and then ***call*** the function with two **arguments** that will *return* the value 4.
+Pop this into your console, and then ***call*** the function with two **arguments** that will *return* the value 4. Call me over when you have a solution.
 
 Note: There are many correct answers
 
 <details>
   <summary>Here's one</summary>
 
-  `mysteryFunction(20, 5) // It is a division function`
+  `mysteryFunction(20, 5) // It's a division function`
 
 </details>
